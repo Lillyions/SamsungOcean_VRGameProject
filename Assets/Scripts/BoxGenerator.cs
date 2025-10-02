@@ -39,6 +39,7 @@ public class BoxGenerator : MonoBehaviour
             }
 
             float bpm = musicBPM / 60.0f;
+            yield return new WaitForSeconds(bpm);
         }
     }
 
